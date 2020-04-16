@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C1D9E40972B42BD84C4E88F /* Pods_The_Popular_Movies_App2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5608733A729C9674D2DF9B /* Pods_The_Popular_Movies_App2.framework */; };
+		BF78DE2123C6668500061E47 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF78DE2023C6668500061E47 /* ReviewCell.swift */; };
+		BF939EDC23C4A71E00D2F759 /* FavouriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF939EDB23C4A71E00D2F759 /* FavouriteController.swift */; };
 		BF9FE1E123C2AE420047D20B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE1E023C2AE420047D20B /* AppDelegate.swift */; };
-		BF9FE1E323C2AE420047D20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE1E223C2AE420047D20B /* ViewController.swift */; };
 		BF9FE1E623C2AE440047D20B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9FE1E423C2AE430047D20B /* Main.storyboard */; };
 		BF9FE1E923C2AE440047D20B /* The_Popular_Movies_App2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE1E723C2AE440047D20B /* The_Popular_Movies_App2.xcdatamodeld */; };
 		BF9FE1EB23C2AE810047D20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9FE1EA23C2AE810047D20B /* Assets.xcassets */; };
 		BF9FE1EE23C2AE810047D20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9FE1EC23C2AE810047D20B /* LaunchScreen.storyboard */; };
+		BF9FE1F623C2AEE70047D20B /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE1F523C2AEE70047D20B /* HomeCell.swift */; };
+		BF9FE1F823C2AF230047D20B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE1F723C2AF230047D20B /* HomeController.swift */; };
+		BF9FE1FA23C2C72F0047D20B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE1F923C2C72F0047D20B /* Reachability.swift */; };
+		BF9FE1FC23C2C9790047D20B /* ShowDetailes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9FE1FB23C2C9790047D20B /* ShowDetailes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A5608733A729C9674D2DF9B /* Pods_The_Popular_Movies_App2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Popular_Movies_App2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9703602275A7F290D2A39D8D /* Pods-The Popular Movies App2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Popular Movies App2.debug.xcconfig"; path = "Target Support Files/Pods-The Popular Movies App2/Pods-The Popular Movies App2.debug.xcconfig"; sourceTree = "<group>"; };
+		BF78DE2023C6668500061E47 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		BF939EDB23C4A71E00D2F759 /* FavouriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteController.swift; sourceTree = "<group>"; };
 		BF9FE1DD23C2AE410047D20B /* The Popular Movies App2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Popular Movies App2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9FE1E023C2AE420047D20B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF9FE1E223C2AE420047D20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF9FE1E523C2AE430047D20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF9FE1E823C2AE440047D20B /* The_Popular_Movies_App2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Popular_Movies_App2.xcdatamodel; sourceTree = "<group>"; };
 		BF9FE1EA23C2AE810047D20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF9FE1ED23C2AE810047D20B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9FE1EF23C2AE810047D20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9FE1F523C2AEE70047D20B /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		BF9FE1F723C2AF230047D20B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BF9FE1F923C2C72F0047D20B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		BF9FE1FB23C2C9790047D20B /* ShowDetailes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailes.swift; sourceTree = "<group>"; };
+		F40287C32FC444B2F22C6DE4 /* Pods-The Popular Movies App2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Popular Movies App2.release.xcconfig"; path = "Target Support Files/Pods-The Popular Movies App2/Pods-The Popular Movies App2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1D9E40972B42BD84C4E88F /* Pods_The_Popular_Movies_App2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13309BAD973628B222C955F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A5608733A729C9674D2DF9B /* Pods_The_Popular_Movies_App2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B51FF514F8CA0A9751422E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9703602275A7F290D2A39D8D /* Pods-The Popular Movies App2.debug.xcconfig */,
+				F40287C32FC444B2F22C6DE4 /* Pods-The Popular Movies App2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF9FE1D423C2AE3D0047D20B = {
 			isa = PBXGroup;
 			children = (
 				BF9FE1DF23C2AE410047D20B /* The Popular Movies App2 */,
 				BF9FE1DE23C2AE410047D20B /* Products */,
+				B51FF514F8CA0A9751422E11 /* Pods */,
+				13309BAD973628B222C955F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,44 @@
 		BF9FE1DF23C2AE410047D20B /* The Popular Movies App2 */ = {
 			isa = PBXGroup;
 			children = (
+				BFA19FCF23C6C7A700BC06DA /* Model */,
+				BFA19FD023C6C7B500BC06DA /* View */,
+				BFA19FD223C6C7DA00BC06DA /* Controller */,
 				BF9FE1E023C2AE420047D20B /* AppDelegate.swift */,
-				BF9FE1E223C2AE420047D20B /* ViewController.swift */,
-				BF9FE1E423C2AE430047D20B /* Main.storyboard */,
 				BF9FE1EA23C2AE810047D20B /* Assets.xcassets */,
-				BF9FE1EC23C2AE810047D20B /* LaunchScreen.storyboard */,
 				BF9FE1EF23C2AE810047D20B /* Info.plist */,
-				BF9FE1E723C2AE440047D20B /* The_Popular_Movies_App2.xcdatamodeld */,
 			);
 			path = "The Popular Movies App2";
+			sourceTree = "<group>";
+		};
+		BFA19FCF23C6C7A700BC06DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FE1E723C2AE440047D20B /* The_Popular_Movies_App2.xcdatamodeld */,
+				BF9FE1F923C2C72F0047D20B /* Reachability.swift */,
+				BF9FE1F523C2AEE70047D20B /* HomeCell.swift */,
+				BF78DE2023C6668500061E47 /* ReviewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFA19FD023C6C7B500BC06DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FE1EC23C2AE810047D20B /* LaunchScreen.storyboard */,
+				BF9FE1E423C2AE430047D20B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFA19FD223C6C7DA00BC06DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF939EDB23C4A71E00D2F759 /* FavouriteController.swift */,
+				BF9FE1F723C2AF230047D20B /* HomeController.swift */,
+				BF9FE1FB23C2C9790047D20B /* ShowDetailes.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF9FE1F223C2AE810047D20B /* Build configuration list for PBXNativeTarget "The Popular Movies App2" */;
 			buildPhases = (
+				CC90E0C00453973060D40D66 /* [CP] Check Pods Manifest.lock */,
 				BF9FE1D923C2AE400047D20B /* Sources */,
 				BF9FE1DA23C2AE400047D20B /* Frameworks */,
 				BF9FE1DB23C2AE400047D20B /* Resources */,
+				4FFB2A9FB4A402F692F2797B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +198,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FFB2A9FB4A402F692F2797B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Popular Movies App2/Pods-The Popular Movies App2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Popular Movies App2/Pods-The Popular Movies App2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Popular Movies App2/Pods-The Popular Movies App2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC90E0C00453973060D40D66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Popular Movies App2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF9FE1D923C2AE400047D20B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9FE1E323C2AE420047D20B /* ViewController.swift in Sources */,
 				BF9FE1E123C2AE420047D20B /* AppDelegate.swift in Sources */,
+				BF9FE1F623C2AEE70047D20B /* HomeCell.swift in Sources */,
 				BF9FE1E923C2AE440047D20B /* The_Popular_Movies_App2.xcdatamodeld in Sources */,
+				BF9FE1FA23C2C72F0047D20B /* Reachability.swift in Sources */,
+				BF9FE1F823C2AF230047D20B /* HomeController.swift in Sources */,
+				BF78DE2123C6668500061E47 /* ReviewCell.swift in Sources */,
+				BF9FE1FC23C2C9790047D20B /* ShowDetailes.swift in Sources */,
+				BF939EDC23C4A71E00D2F759 /* FavouriteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +396,7 @@
 		};
 		BF9FE1F323C2AE810047D20B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9703602275A7F290D2A39D8D /* Pods-The Popular Movies App2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +415,7 @@
 		};
 		BF9FE1F423C2AE810047D20B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40287C32FC444B2F22C6DE4 /* Pods-The Popular Movies App2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
